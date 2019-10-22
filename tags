@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARRAY_SIZE	week6/code/dynamiclib/ldtestlocal.c	3;"	d	language:C	file:
+ARRAY_SIZE	week6/code/exam/dytestrt.c	5;"	d	language:C	file:
+ARRAY_SIZE	week6/code/remotetest.c	3;"	d	language:C	file:
+ARRAY_SIZE	week6/code/staticlib/localtest.c	3;"	d	language:C	file:
+initarray	week6/code/dynamiclib/base.c	/^void initarray(int *a,int n) $/;"	f	language:C	signature:(int *a,int n)
+initarray	week6/code/staticlib/base.c	/^void initarray(int *a,int n) $/;"	f	language:C	signature:(int *a,int n)
+main	week6/code/dynamiclib/ldtestlocal.c	/^int main()$/;"	f	language:C
+main	week6/code/exam/dytestrt.c	/^int main()$/;"	f	language:C
+main	week6/code/remotetest.c	/^int main()$/;"	f	language:C
+main	week6/code/staticlib/localtest.c	/^int main()$/;"	f	language:C
+max	week6/code/dynamiclib/aoperand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+max	week6/code/staticlib/aoperand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+showarray	week6/code/dynamiclib/base.c	/^void showarray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+showarray	week6/code/staticlib/base.c	/^void showarray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+sum	week6/code/dynamiclib/aoperand.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+sum	week6/code/staticlib/aoperand.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
