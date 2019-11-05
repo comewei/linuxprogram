@@ -11,6 +11,6 @@ int main(int argc,char *argv[])
 	{
 		printf("test1: %d : %s\n",i,argv[i]);
 	}
-	sleep(100);
+	sleep(10);
 	return 0;
 }
