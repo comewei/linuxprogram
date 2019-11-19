@@ -8,14 +8,76 @@ ARRAY_SIZE	week6/code/dynamiclib/ldtestlocal.c	3;"	d	language:C	file:
 ARRAY_SIZE	week6/code/exam/dytestrt.c	5;"	d	language:C	file:
 ARRAY_SIZE	week6/code/remotetest.c	3;"	d	language:C	file:
 ARRAY_SIZE	week6/code/staticlib/localtest.c	3;"	d	language:C	file:
+INFILE	week9/code/fork2.c	5;"	d	language:C	file:
+MODE	week9/code/fork2.c	7;"	d	language:C	file:
+OUTFILE	week9/code/fork2.c	6;"	d	language:C	file:
+a	week8/code/ex2.c	/^int a;$/;"	v	language:C
+after_main	week10/code/1-1.c	/^static void __attribute__((destructor)) after_main(void)$/;"	f	language:C	file:	signature:(void)
+after_main	week10/code/2_1-1.c	/^static void __attribute__((destructor)) after_main(void)$/;"	f	language:C	file:	signature:(void)
+after_main	week9/code/test4.c	/^static void __attribute__((destructor)) after_main()$/;"	f	language:C	file:
+b	week8/code/ex2.c	/^static int b=10;$/;"	v	language:C	file:
+before_main	week10/code/1-1.c	/^static void __attribute__((constructor)) before_main(void)$/;"	f	language:C	file:	signature:(void)
+before_main	week10/code/2_1-1.c	/^static void __attribute__((constructor)) before_main(void)$/;"	f	language:C	file:	signature:(void)
+before_main	week9/code/test1.c	/^static void __attribute__((constructor)) before_main()$/;"	f	language:C	file:
+before_main	week9/code/test2.c	/^static void __attribute__((constructor)) before_main()$/;"	f	language:C	file:
+before_main	week9/code/test3.c	/^static void __attribute__((constructor)) before_main()$/;"	f	language:C	file:
+before_main	week9/code/test4.c	/^static void __attribute__((constructor)) before_main()$/;"	f	language:C	file:
+buf	week7/code/buftest1.c	/^char buf[] = {"1234 stdout\\n"};$/;"	v	language:C
+buf	week7/code/buftest2.c	/^char buf[] = {"1234 stdout\\n"};$/;"	v	language:C
+buf	week7/code/test3.c	/^char buf[] = {"write to stdout\\n"};$/;"	v	language:C
+callback1	week10/code/1-1.c	/^static void callback1()$/;"	f	language:C	file:
+callback1	week10/code/2_1-1.c	/^static void callback1()$/;"	f	language:C	file:
+callback1	week9/code/test2.c	/^static void callback1(void)$/;"	f	language:C	file:	signature:(void)
+callback1	week9/code/test3.c	/^static void callback1(void)$/;"	f	language:C	file:	signature:(void)
+callback1	week9/code/test4.c	/^static void callback1(void)$/;"	f	language:C	file:	signature:(void)
+callback2	week10/code/1-1.c	/^static void callback2()$/;"	f	language:C	file:
+callback2	week10/code/2_1-1.c	/^static void callback2()$/;"	f	language:C	file:
+callback2	week9/code/test2.c	/^static void callback2(void)$/;"	f	language:C	file:	signature:(void)
+callback2	week9/code/test3.c	/^static void callback2(void)$/;"	f	language:C	file:	signature:(void)
+callback2	week9/code/test4.c	/^static void callback2(void)$/;"	f	language:C	file:	signature:(void)
+callback3	week10/code/1-1.c	/^static void callback3()$/;"	f	language:C	file:
+callback3	week10/code/2_1-1.c	/^static void callback3()$/;"	f	language:C	file:
+callback3	week9/code/test2.c	/^static void callback3(void)$/;"	f	language:C	file:	signature:(void)
+callback3	week9/code/test3.c	/^static void callback3(void)$/;"	f	language:C	file:	signature:(void)
+callback3	week9/code/test4.c	/^static void callback3(void)$/;"	f	language:C	file:	signature:(void)
+g	week10/code/1-2.c	/^int g=10;$/;"	v	language:C
+g	week10/code/2_1-2.c	/^ing g=10;$/;"	v	language:C
+global	week7/code/simplefork.c	/^int global = 4;$/;"	v	language:C
 initarray	week6/code/dynamiclib/base.c	/^void initarray(int *a,int n) $/;"	f	language:C	signature:(int *a,int n)
 initarray	week6/code/staticlib/base.c	/^void initarray(int *a,int n) $/;"	f	language:C	signature:(int *a,int n)
+k	week9/code/fork1.c	/^int k=9;$/;"	v	language:C
+main	week10/code/1-1.c	/^int main()$/;"	f	language:C
+main	week10/code/1-2.c	/^int main()$/;"	f	language:C
+main	week10/code/2_1-1.c	/^int main()$/;"	f	language:C
+main	week10/code/2_1-2.c	/^int main()$/;"	f	language:C
 main	week6/code/dynamiclib/ldtestlocal.c	/^int main()$/;"	f	language:C
 main	week6/code/exam/dytestrt.c	/^int main()$/;"	f	language:C
 main	week6/code/remotetest.c	/^int main()$/;"	f	language:C
 main	week6/code/staticlib/localtest.c	/^int main()$/;"	f	language:C
+main	week7/code/buftest1.c	/^int main()$/;"	f	language:C
+main	week7/code/buftest2.c	/^int main()$/;"	f	language:C
+main	week7/code/simplefork.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	week7/code/test1.cpp	/^int main()$/;"	f	language:C++	signature:()
+main	week7/code/test2.c	/^int main(int argc,char *argv[])$/;"	f	language:C	signature:(int argc,char *argv[])
+main	week7/code/test3.c	/^int main()$/;"	f	language:C
+main	week8/code/ex1.c	/^int main()    $/;"	f	language:C
+main	week8/code/ex2.c	/^int main(int argc,char* argv[],char* envp[]){$/;"	f	language:C	signature:(int argc,char* argv[],char* envp[])
+main	week8/code/test.c	/^int main()$/;"	f	language:C
+main	week9/code/call1.c	/^int main()$/;"	f	language:C
+main	week9/code/caller1.c	/^int main()$/;"	f	language:C
+main	week9/code/caller2.c	/^int main()$/;"	f	language:C
+main	week9/code/caller3.c	/^int main()$/;"	f	language:C
+main	week9/code/caller4.c	/^int main()$/;"	f	language:C
+main	week9/code/fork1.c	/^int main()$/;"	f	language:C
+main	week9/code/fork2.c	/^int main()$/;"	f	language:C
+main	week9/code/test1.c	/^int main(int argc,char *argv[])$/;"	f	language:C	signature:(int argc,char *argv[])
+main	week9/code/test2.c	/^int main(int argc,char *argv[])$/;"	f	language:C	signature:(int argc,char *argv[])
+main	week9/code/test3.c	/^int main(int argc,char *argv[])$/;"	f	language:C	signature:(int argc,char *argv[])
+main	week9/code/test4.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	week9/code/test5.c	/^int main(int argc ,char *argv[])$/;"	f	language:C	signature:(int argc ,char *argv[])
 max	week6/code/dynamiclib/aoperand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 max	week6/code/staticlib/aoperand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+print	week8/code/ex1.c	/^void print(char *str,int p)    $/;"	f	language:C	signature:(char *str,int p)
 showarray	week6/code/dynamiclib/base.c	/^void showarray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 showarray	week6/code/staticlib/base.c	/^void showarray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 sum	week6/code/dynamiclib/aoperand.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
