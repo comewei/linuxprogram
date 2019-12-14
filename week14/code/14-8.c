@@ -1,22 +1,7 @@
-#include<pthread.h>
-#include<stdio.h>
-#include<stdlib.h>
-#include<unistd.h>
-#include<limits.h>
-#include<string.h>
-#include<sys/time.h>
-#include<sys/types.h>
-#define NUM 4
-struct sendval{
-	int n;
-	int s;
-	long time;
-};
-
-
+#include"my.h"
 
 void *thread_function(void *arg);
-int run_now=1;
+int row_now=1;
 void *thread_function(void *arg)
 {
 	int print_count2=0;
