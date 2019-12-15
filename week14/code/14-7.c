@@ -17,7 +17,14 @@ int main()
 	}
 	//ret = pthread_join(tid,NULL);
 	pthread_detach(tid);
-	sleep(5);
+	//sleep(5);
 	printf("Master done!\n");
 	return 0;
 }
+
+/*
+int pthread_detach(pthread_t thread)
+作用：从状态上实现线程分离
+
+
+*/

@@ -6,12 +6,12 @@ int gn=0;
 void *work(void *par)
 {
 	int i;
-	//pthread_rwlock_wrlock(&rwlock);           //获取一个写入锁
+	pthread_rwlock_wrlock(&rwlock);           //获取一个写入锁
 	for(i=0;i<LOOP;i++)
 	{
 		gn++;
 	}
-	//pthread_rwlock_unlock(&rwlock);           //释放写入锁
+	pthread_rwlock_unlock(&rwlock);           //释放写入锁
 	return NULL;
 }
 

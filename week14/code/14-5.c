@@ -20,8 +20,9 @@ int main()
 			perror("create failed!\n");
 			return -1;
 		}
-		pthread_join(tid[i],NULL);
+		
 	}
+	pthread_join(tid[i],NULL);
 	printf("Master %d  :  Alll done!\n",getpid());
 	return 0;
 }

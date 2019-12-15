@@ -13,7 +13,7 @@ int main()
 	struct timezone tz;
 	gettimeofday(&tv1,&tz);
 	
-	for(i=0;i<1000;i++)
+	for(i=0;i<100;i++)
 	{
 		pid=fork();
 	}
