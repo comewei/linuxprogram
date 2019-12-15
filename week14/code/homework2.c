@@ -8,10 +8,6 @@ void foo(void *arg)
 	struct timezone tz;
 	
 	int sum=0,i;
-	arg++;
-	sum=(int *)malloc(sizeof(int));
-	printf("%d : global arg=%d\n",n,arg);
-	
 	gettimeofday(&tv1,&tz);
 	for(i=0;i<k->s;i++)
 	{
@@ -20,10 +16,6 @@ void foo(void *arg)
 	gettimeofday(&tv1,&tz);
 	k->time = tv2.tv_usec-tv1.tv_usec;
 	
-	int arg;
-	arg=n*100;
-	printf("%d : local arg=%d,sum=%d\n",n,arg,*sum);
-	pthread_exit((void *)sum);
 }
 
 int main()
@@ -44,7 +36,7 @@ int main()
 		}
 		
 		pthread_join(tid[i],(void **)&pt);
-		printf("master %d : arg=%d,sum=%d\n",i,arg,*pt);
+		printf("master %d : arg=%d,sum=%d\n",i,arg,**pt);
 	}
 	
 }
