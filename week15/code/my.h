@@ -29,3 +29,6 @@ void initarray(int *a,int n)
 
 #define TN 100
 #define WRITER_FIRST  
+
+
+#include<semaphore.h>
